@@ -18,9 +18,9 @@ class BotStatus(Command):
 
         # Generated status list; they are lambdas to retrieve correct information
         self.status_list = [
-            lambda: 'https://alexisbot.mak.wtf/',
+            lambda: 'jugando a pornhub',
             lambda: 'version {}'.format(AlexisBot.__version__),
-            lambda: 'add with !invite',
+            lambda: 'Ale es una loli',
             lambda: '!help = commands',
             lambda: 'in {} guilds'.format(len(self.bot.guilds)),
             lambda: 'with {} users'.format(len(set([u.id for u in self.bot.get_all_members() if not u.bot]))),
